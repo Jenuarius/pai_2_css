@@ -4,21 +4,30 @@
 </head>
 <body>
 <style>
+  .blue-text {
+    color: blue;
+  }
 
-h1 {color: blue;}
-h2 {color: red;}
-h3 {color: green;}
+  .red-text {
+    color: red;
+  }
 
-#yellowtxt ~ * {color: yellow;}
+  .green-text {
+    color: green;
+  }
 
+  .yellow-text ~ * {
+    color: yellow;
+  }
 </style>
 
-<h1><p>Hello</p></h1>
+<h1 class="blue-text"><p>Hello</p></h1>
 
-<h2><p>World!</p></h2>
+<h2 class="red-text"><p>World!</p></h2>
 
-<h3 id="yellowtxt">WSB</h3>
-<p>test</p>
+<h3 class="green-text" id="yellowtxt">WSB</h3>
+<p class="yellow-text">test</p>
 
 </body>
 </html>
+
